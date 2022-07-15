@@ -1,0 +1,212 @@
+:root {
+    --first-title-color:#212121;
+    --second-title-color: #FFFFFF;;
+    --first-text-color: #757575;
+    --second-text-color:rgba(255, 255, 255, 0.6);
+    --first-btn-color: #212121;
+    --second-btn-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --first-background-color:#F5F4FA;
+    --second-background-color:#2F303A;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+color:var(--first-text-color) ;
+}  
+ 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.logo {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+ 
+.logo-type {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+}
+
+.element {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+
+.element:hover,  .menu-link:hover, .tel:hover, .e-mail:hover, .adress:hover, .button-item:hover {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+
+.hero-btn:hover, .hero-btn:focus{
+    color: #188CE8;
+}
+
+.element:focus,
+.menu-link:focus,
+.tel:focus,
+.e-mail:focus,
+.adress:focus{
+    color: var(--accent-color);
+}
+
+.tel, .e-mail {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--first-text-color);
+}
+
+.hero-title { 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    background-color: var(--second-background-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    background: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--second-btn-color);
+    cursor: pointer;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+}
+
+.list-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.photo-title, .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+} 
+
+.item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--first-title-color);
+}
+
+.item-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+   text-align: center;
+   color: var(--first-text-color);
+}
+
+.sidebar {
+    background: #2F303A;
+}
+
+.logo-part {
+    color: var(--second-title-color);
+}
+
+.adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.button-item {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-btn-color);
+    background-color: var(--first-background-color);
+}
+
+.button-item:focus, .button-item:hover {
+    color: var(--second-btn-color);
+    background-color: var(--accent-color);
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--first-title-color);
+}
+
+.projects-text {
+ font-size: 16px;
+ line-height: 1.87;
+ letter-spacing: 0.03em;
+ color: var(--first-text-color);
+}
