@@ -72,7 +72,8 @@ color:var(--first-text-color) ;
     color: var(--first-title-color);
 }
 
-.element:hover,  .menu-link:hover, .tel:hover, .e-mail:hover, .adress:hover, .button-item:hover {
+.element:hover,  .menu-link:hover, .tel:hover, .e-mail:hover, .adress:hover, .button-item:hover, .e-mail-footer:hover,
+.tel-footer:hover {
     color: var(--accent-color);
 }
 
@@ -89,7 +90,9 @@ color:var(--first-text-color) ;
 .menu-link:focus,
 .tel:focus,
 .e-mail:focus,
-.adress:focus{
+.adress:focus,
+.e-mail-footer:focus, .tel-footer:focus
+{
     color: var(--accent-color);
 }
 
@@ -121,6 +124,7 @@ color:var(--first-text-color) ;
     line-height: 1.8;
     color: var(--second-btn-color);
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 
 .list-title {
@@ -165,6 +169,15 @@ color:var(--first-text-color) ;
 
 .sidebar {
     background: #2F303A;
+}
+
+.e-mail-footer,
+.tel-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .logo-part {
