@@ -83,7 +83,8 @@ color:var(--first-text-color) ;
 
 
 .hero-btn:hover, .hero-btn:focus{
-    color: #188CE8;
+    background-color: #188CE8;
+    color: var(--second-btn-color);
 }
 
 .element:focus,
